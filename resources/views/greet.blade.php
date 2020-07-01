@@ -9,7 +9,7 @@
     </head>
 
     <body>
-        <h1>SELAMAT DATANG <?php echo $req->firstname ?> !</h1>
+        <h1>SELAMAT DATANG {{$req->firstname}} {{$req->lastname}}!</h1>
         <h3>Terima kasih telah bergabung di Sanberbook. Social Media kita bersama!</h3>
     </body>
 </html>
