@@ -8,6 +8,6 @@ class AuthController extends Controller
 {
     public function welcome(Request $req){
 
-        return view('greet',['name' => $req['firstname']]);
+        return view('greet',['firstname' => $req['firstname'], 'lastname' => $req['lastname'] ]);
     }
 }
